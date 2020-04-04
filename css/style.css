@@ -1,0 +1,41 @@
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  background-color: gainsboro;
+  padding: 0;
+}
+
+.searchbar {
+    margin-top: 5%;
+    height: 60px;
+    border-radius: 30px;
+    background-color: white;
+  padding: 10px;
+}
+
+.search_input {
+  color: black;
+  border: 0;
+  outline: 0;
+  background: none;
+  caret-color: transparent;
+  line-height: 40px;
+  padding: 0 10px;
+  width: 450px;
+  caret-color: red;
+}
+
+.search_icon {
+  background: white;
+  color: #e74c3c;
+  height: 40px;
+  width: 40px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  text-decoration: none;
+}
