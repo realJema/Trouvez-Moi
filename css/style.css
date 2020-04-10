@@ -48,7 +48,7 @@ html {
   z-index: 1;
   display: block;
   background: #FFFFFF;
-  min-width: 270px;
+  min-width: inherit;
   height: 260px;
   -webkit-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
@@ -177,7 +177,7 @@ html {
 }
 .container {
   padding: 0;
-  margin: 0 ;
+  margin: auto ;
 }
 .container:before,
 .container:after {
@@ -185,12 +185,18 @@ html {
   display: block;
   clear: both;
 }
+.justify-content-center {
+  margin: 0;
+}
+.col-md-3 {
+  max-width: 19%;
+  margin: 0.7% 0.5%;
+}
 .container .column {
-  margin: 10px;
-  -webkti-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  float: left;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      float: left;
+      padding: 0;
 }
 .container .column .demo-title {
   margin: 0 0 15px;
